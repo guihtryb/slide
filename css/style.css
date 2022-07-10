@@ -1,7 +1,27 @@
-img {
-  width: 100%;
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-img[alt^="Marina"] {
-  height: 95vh;
+img {
+  display: block;
+  max-width: 100%;
+  height: 70%;
+}
+
+.slide {
+  display: flex;
+transform: translate3d(0px, 0px, 0px);
+}
+
+.slide-wrapper {
+  overflow: hidden;
+}
+
+.slide li {
+  flex-shrink: 0;
+  width: 80vw;
+  max-width: 800px;
+  margin: 0 20px;
 }
