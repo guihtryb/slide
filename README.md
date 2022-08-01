@@ -1,2 +1,2 @@
 # slide
-Slide project of the Origamid JavaScriptE6+ course
+Slide practice developed on the Origamid' JavaScriptE6+ Course
